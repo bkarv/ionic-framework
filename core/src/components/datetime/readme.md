@@ -311,10 +311,10 @@ interface DatetimeCustomEvent extends CustomEvent {
 
 <!-- Datetime in overlay -->
 <ion-button id="open-modal">Open Datetime Modal</ion-button>
-<ion-modal trigger="open-modal">
+<ion-modal style="--width: 290px;--height: 382px;--border-radius: 8px;" trigger="open-modal">
   <ng-template>
     <ion-content>
-      <ion-datetime></ion-datetime>
+      <ion-datetime style="height: 382px;"></ion-datetime>
     </ion-content>
   </ng-template>
 </ion-modal>
